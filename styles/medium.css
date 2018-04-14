@@ -1,0 +1,52 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+  
+  nav button { display:none; }  /* hamburger button does not need to be shown */
+  
+    #logo {
+    display: inline-block;
+    vertical-align: middle;
+    
+    margin-left: 500%;
+    padding-left: 15px; 
+    }
+    
+    nav {
+        
+    }
+    nav ul {
+       display: inline-block;
+    }
+    
+    .naviitem {
+        
+        
+        
+        vertical-align: middle;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    
+    nav li {
+     
+    }
+    
+    nav a:link {
+        text-decoration: none;
+        color: #af473c;
+        padding: 28px;
+        font-family: 'Karla-regular', sans-serif;
+        font-size: 2vw;
+        
+    }
+    
+    nav a:hover {
+        background-color: #af473c;
+        color: white;
+    }
+    
+    
+    
+}

@@ -1,0 +1,279 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+    font-family: "montserrat", sans-serif;
+    color: dimgrey;
+  
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {}
+header h1 {}
+header img {
+    
+}
+header .subheading {}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px; 
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #af473c;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: solid #776347;
+}
+nav a {
+    display: inline;
+}
+nav button {}
+nav ul {
+    padding: 2px;
+}
+nav ul li {
+    
+}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+
+nav ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+    color: white;
+}
+nav ul li ul li { 
+  background:  #af473c;
+    color: white;
+  display: block; 
+}
+nav ul li ul li a {
+    display: block !important;
+    color: white;
+} 
+nav ul li ul li:hover {
+    background:  #af473c;
+    color: white;
+    
+}
+
+main {
+    margin-bottom: 30px;
+     
+}
+
+#firstsection {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 130px;
+    background-image: url(../images/checkadventuretours.jpg);
+    -webkit-background-size: cover;
+    background-color: #776347;
+    background-size: 100% 100%;
+}
+
+.checkadventuretours {
+    text-align: center;
+    font-family: "karla", sans-serif;
+    font-size: 6vw;
+    color: white;
+}
+
+section h2:hover {
+    text-shadow: 2px 6px rgba(0,0,0,0.24);
+}
+
+section a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#secondsection {
+    background-color: #67752f;
+    padding: 30px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#secondsection h1 {
+    text-align: center;
+    font-family: "karla", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+#secondsection h2 {
+    text-align: center;
+    font-family:"montserrat", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#registerevent {
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    border-radius: 5%;
+    background-color: white;
+    color: black;
+    border: 2px solid #67752f;
+    position: relative;
+    left: 46%;
+}
+
+#registerevent:hover {
+    border: 2px solid #fff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.adventure {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.imgcontinental {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 350px;
+    
+    
+}
+
+#continentalparagraph {
+    padding-right: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+#continentalparagraph h3 {
+    
+}
+
+.pagebody {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+table {
+            border-collapse:collapse;
+            border: 1px solid;
+            padding: 15px;
+            box-shadow: 8px 8px 20px #67752f;
+            align-content: center;
+            margin: 10px auto auto;
+            
+        }
+        th, td, tr {
+            text-align: center;
+            font-family: "Ubuntu", sans-serif;
+            padding: 6px;
+            border: 1px solid lightgrey; 
+        }
+        
+        thead {
+            background-color:#67752f;
+            font-size: 25px;
+            font-weight: 500;
+            color: white;
+        }
+        th {
+            color: white;
+            background-color:#af473c;
+            font-weight: 500;
+        }
+        tfoot {
+            background-color:#7fb9c2;
+            font-size: 12px;
+        }
+      
+#anyquestions {
+    font-family: "karla", sans-serif;
+    font-weight:100;
+    text-align: center;
+}
+
+#address {
+    text-align: center;
+}
+
+#contactform {
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+#contactform h2 {
+    text-align: center;
+}
+
+#continentalmain {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#resourcelist {
+    display: block;
+    margin-left: 20%;
+}
+
+footer {
+    text-align: center;
+    border-top: 5px solid #67752f;
+    padding: 20px;
+}
+footer aside {
+    text-align: center;
+}
+footer aside p {
+    font-family: "montserrat", sans-serif;
+    font-size: 18px;
+    padding: 0px;
+}
+footer h3 {
+    font-family: "karla", sans-serif;
+    font-size: 22px;
+}
+footer>p {
+    font-family: "montserrat", sans-serif;
+} 
+
+footer a {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+footer a:hover {
+    color: #af473c;
+}
+
+.socials {
+    padding: 5px;
+}
+/* Other Class Selectors */

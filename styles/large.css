@@ -1,0 +1,21 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+  
+  article p.town-article img { width: 29.333%; }
+  
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0%;
+    padding-left: 15px; 
+    }
+
+nav a:link {
+        text-decoration: none;
+        color: #af473c;
+        padding: 28px;
+        font-family: 'Karla-regular', sans-serif;
+        
+    }
