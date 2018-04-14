@@ -28,7 +28,7 @@ header .subheading {}
 
 nav a:visited {
     text-decoration: none;
-    color: #af473c;
+    color: darkgray;
 }
 
 nav {
@@ -46,7 +46,9 @@ nav ul li {
     
 }
 nav ul li a {}
-nav ul li.active a {}
+nav ul li#active a {
+    color: #67752f;
+}
 nav ul li a:hover {}
 
 nav ul li {
@@ -55,6 +57,7 @@ nav ul li {
 
 nav ul li:hover ul {
     display: block;
+    color: white;
 }
 
 

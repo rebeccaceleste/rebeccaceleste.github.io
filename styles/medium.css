@@ -35,15 +35,15 @@
     
     nav a:link {
         text-decoration: none;
-        color: #af473c;
+        color: white;
         padding: 28px;
         font-family: 'Karla-regular', sans-serif;
-        font-size: 2vw;
+        font-size: 1.5vw;
         
     }
     
     nav a:hover {
-        background-color: #af473c;
+        background-color: darkgrey;
         color: white;
     }
     
